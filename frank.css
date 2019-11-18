@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    background-color: rgb(126, 247, 126);
+    height: 300px;
+    width: 300px;
+    margin-left: 500px;
+    margin-top: 100px;
+    border-radius: 10% 10% 150% 150%;
+    position: absolute;
+}
+
+.left-eye{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    margin-left: 550px;
+    margin-top: 200px;
+    border-radius: 50%;
+    border: rgb(61, 61, 61) 10px solid;
+}
+
+.right-eye{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    margin-left:680px;
+    margin-top: 200px;
+    border-radius: 50%;
+    border: rgb(61, 61, 61) 10px solid;
+}
+
+.mouth{
+    position: fixed;
+    width: 100px;
+    background-color: white;
+    height: 50px;
+    margin-left: 600px;
+    margin-top: 320px;
+    border-radius: 100px;
+    border: rgb(61, 61, 61) 4px solid;
+}
+
+.scar1{
+    position: fixed;
+    width: 100px;
+    background-color: rgb(61, 61, 61);
+    height: 15px;
+    margin-left: 680px;
+    margin-top: 120px;
+    border-radius: 100px;
+}
+
+.scar2{
+    position: fixed;
+    width: 50px;
+    background-color: rgb(61, 61, 61);
+    height: 15px;
+    margin-left: 680px;
+    margin-top: 120px;
+    border-radius: 100px;
+    transform: rotate(90deg
+    );
+}
+
+.scar3{
+    position: fixed;
+    width: 50px;
+    background-color: rgb(61, 61, 61);
+    height: 15px;
+    margin-left: 730px;
+    margin-top: 120px;
+    border-radius: 100px;
+    transform: rotate(90deg
+    );
+}
+
+.hair{
+    position: fixed;
+    width: 330px;
+    background-color: rgb(61, 61, 61);
+    height: 50px;
+    margin-left: 470px;
+    margin-top: 50px;
+    border-radius: 20px 100px ;
+
+}
+
+.hair2 {
+    position: absolute;
+    top: 90px;
+    left: 490px;
+    border-top: 30px solid #3B3F4B;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+  }
+
+  .left-pupil{
+    background-color: rgb(61, 61, 61);
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    margin-left: 590px;
+    margin-top: 240px;
+    border-radius: 50%;
+  }
+
+  .right-pupil{
+    background-color: rgb(61, 61, 61);
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    margin-left: 715px;
+    margin-top: 240px;
+    border-radius: 50%;
+  }
+
+  .teeth1{
+    position: fixed;
+    width: 105px;
+    background-color: rgb(61, 61, 61);
+    height: 2px;
+    margin-left: 600px;
+    margin-top: 345px;
+    border-radius: 100px; 
+  }
+
+  .teeth2{
+    position: fixed;
+    width: 20px;
+    background-color: rgb(61, 61, 61);
+    height: 2px;
+    margin-left: 680px;
+    margin-top: 345px;
+    border-radius: 100px;
+    transform: rotate(90deg); 
+  }
